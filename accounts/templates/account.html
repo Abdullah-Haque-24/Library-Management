@@ -1,0 +1,12 @@
+
+{%extends 'base.html'%} 
+{%load crispy_forms_tags%} 
+{%block content%}
+{% comment %}
+Since authenctication was not mentioned except log in, log out and register, I didn't change much to save time 
+{% endcomment %}
+<form method="post">
+  {%csrf_token%} {{form | crispy}}
+  <button type="submit" class="btn btn-warning mb-5 mx-3">{{type}}</button>
+</form>
+{%endblock%}
