@@ -28,8 +28,8 @@ SECRET_KEY = 'django-insecure-ts#h%&ekg)b7vudk2)6asq2oajqc^sm3od_#z_#8wq6ed1&asq
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-# CSRF_TRUSTED_ORIGINS = ['https://library-website-exps.onrender.com', 'https://*.127.0.0.1']
-
+CSRF_TRUSTED_ORIGINS = ['https://library-management-tvk1.onrender.com', 'https://*.127.0.0.1']
+# https://library-management-tvk1.onrender.com/
 
 # Application definition
 
